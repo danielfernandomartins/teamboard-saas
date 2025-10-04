@@ -1,0 +1,32 @@
+teamboard-saas/
+├─ .github/
+│  └─ workflows/
+│     ├─ ci.yml
+│     └─ deploy.yml
+├─ infra/                   # Terraform e configs (opcional)
+├─ services/
+│  ├─ backend/
+│  │  ├─ src/
+│  │  │  ├─ main.ts
+│  │  │  ├─ app.ts
+│  │  │  ├─ modules/
+│  │  │  │  ├─ auth/
+│  │  │  │  ├─ users/
+│  │  │  │  ├─ boards/
+│  │  │  │  └─ cards/
+│  │  │  ├─ middlewares/
+│  │  │  └─ config/
+│  │  ├─ tests/
+│  │  ├─ package.json
+│  │  └─ Dockerfile
+│  └─ frontend/
+│     ├─ src/
+│     │  ├─ pages/
+│     │  ├─ components/
+│     │  ├─ hooks/
+│     │  └─ utils/
+│     ├─ package.json
+│     └─ Dockerfile
+├─ docker-compose.yml
+├─ README.md
+└─ .gitignore

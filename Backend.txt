@@ -1,0 +1,5 @@
+mkdir -p services/backend && cd services/backend
+npm init -y
+npm install express cors jsonwebtoken bcryptjs pg reflect-metadata class-validator dotenv
+npm install -D typescript ts-node-dev @types/node @types/express jest ts-jest @types/jest supertest
+npx tsc --init

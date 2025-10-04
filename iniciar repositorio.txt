@@ -1,0 +1,2 @@
+mkdir teamboard-saas && cd teamboard-saas
+git init

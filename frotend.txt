@@ -1,0 +1,5 @@
+cd ../
+npm create vite@latest frontend -- --template react-ts
+cd frontend
+npm install axios react-router-dom zustand tailwindcss
+npx tailwindcss init -p
