@@ -1,37 +1,63 @@
-# 🧭 TeamBoard SaaS
+# 🧭 TeamBoard SaaS — Estudo de Arquitetura
 
-**TeamBoard** é uma aplicação **SaaS de gerenciamento de projetos e tarefas para equipes**, inspirada em ferramentas como Trello e Jira.  
-O sistema foi desenvolvido como projeto demonstrativo full-stack, com **autenticação JWT**, **painel Kanban**, **relatórios de produtividade** e **pipeline CI/CD automatizado**.
+Projeto de estudo voltado ao planejamento de uma aplicação SaaS para gerenciamento de projetos e tarefas em equipe.
 
----
+## Status do projeto
 
-## 🚀 Tecnologias Utilizadas
+**Fase atual: desenho de solução / estudo de arquitetura.**
 
-### 🧩 Backend
-- **Node.js** + **TypeScript**
-- **Express** (API REST)
-- **PostgreSQL** (banco de dados relacional)
-- **Prisma ORM** ou **TypeORM** (persistência de dados)
-- **JWT / bcryptjs** (autenticação segura)
-- **Jest + Supertest** (testes)
+Este repositório reúne artefatos de planejamento técnico, estrutura de backend e frontend, Docker Compose e exemplo de pipeline com GitHub Actions. Ele **não representa uma aplicação full-stack finalizada** neste estágio.
 
-### 💻 Frontend
-- **React** + **TypeScript**
-- **Vite** (build rápido)
-- **TailwindCSS** (estilização)
-- **Axios** (requisições HTTP)
-- **Zustand** (gerenciamento de estado)
-- **React Router DOM**
+## Problema explorado
 
-### ⚙️ DevOps / Infra
-- **Docker & Docker Compose**
-- **GitHub Actions** (CI/CD)
-- **Terraform** *(opcional, para IaC e deploy AWS)*
-- **Swagger / OpenAPI** (documentação da API)
+Como estruturar uma solução colaborativa com:
 
----
+- Gestão de usuários
+- Projetos e tarefas
+- Fluxo Kanban
+- Autenticação
+- Persistência de dados
+- API REST
+- Containerização
+- Integração contínua
 
-## 🧱 Arquitetura
+## Arquitetura estudada
 
-O projeto segue uma arquitetura **monorepo**, dividida entre serviços de frontend e backend, com suporte a **containerização via Docker**.
+### Backend
+- Node.js
+- TypeScript
+- Express
+- PostgreSQL
+- ORM
+- JWT
 
+### Frontend
+- React
+- TypeScript
+- Vite
+
+### Infraestrutura
+- Docker / Docker Compose
+- GitHub Actions
+- Swagger / OpenAPI
+
+## O que este repositório demonstra
+
+- Capacidade de decompor uma solução em componentes
+- Organização de arquitetura de software
+- Visão de integração entre frontend, backend e banco de dados
+- Planejamento de infraestrutura e CI/CD
+- Evolução de requisitos para uma proposta técnica
+
+## Próximas etapas
+
+1. Transformar os artefatos de planejamento em estrutura executável.
+2. Implementar autenticação e usuários.
+3. Criar domínio de projetos e tarefas.
+4. Adicionar testes.
+5. Disponibilizar documentação de API.
+6. Publicar uma versão demonstrável.
+
+## Autor
+
+**Daniel Fernando Martins**
